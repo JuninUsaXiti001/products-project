@@ -9,6 +9,6 @@ public class LoggedController {
 
     @GetMapping("/")
     public String logged() {
-        return "html/private/logged";
+        return "html/pages/main.html";
     }
 }
